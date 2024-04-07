@@ -44,7 +44,7 @@
 }
 .col-6{
   --size: calc(100% / var(--col-amount) * 6);
-}Depoimentos
+}
 .col-7{
   --size: calc(100% / var(--col-amount) * 7);
 }
@@ -272,65 +272,4 @@
   .show-lg{
     display: block;
   }
-}
-  .conteiner{
-      max-width:var(--bs-breakpoint-xl);
-  }
-  .col-xl-1 {
-
-    --size:calc(100% / var(--col-amount) * 1);
-  }
-  .col-xl-2 {
-    --size:calc(100% / var(--col-amount) * 2);
-  }
-  .col-xl-3 {
-    --size:calc(100% / var(--col-amount) * 3);
-  }
-  .col-xl-4 {
-    --size:calc(100% / var(--col-amount) * 4);
-  }
-  .col-xl-5 {
-    --size:calc(100% / var(--col-amount) * 5);
-  }
-  .col-xl-6 {
-    --size:calc(100% / var(--col-amount) * 6);
-  }
-  .col-xl-7 {
-    --size:calc(100% / var(--col-amount) * 7);
-  }
-  .col-xl-8 {
-    --size:calc(100% / var(--col-amount) * 8);
-  }
-  .col-xl-9 {
-    --size:calc(100% / var(--col-amount) * 9);
-  }
-  .col-xl-10 {
-    --size:calc(100% / var(--col-amount) * 10);
-  }
-  .col-xl-11 {
-    --size:calc(100% / var(--col-amount) * 11);
-  }
-  .col-xl-12 {
-    --size:calc(100% / var(--col-amount) * 12);
-  }
-.col-xl-1,
-.col-xl-2,
-.col-xl-3,
-.col-xl-4,
-.col-xl-5,
-.col-xl-6,
-.col-xl-7,
-.col-xl-8,
-.col-xl-9,
-.col-xl-10,
-.col-xl-11,
-.col-xl-12{
-  flex-basis: var(--size);
-  max-width: var(--size);
-}
-.hidden-xl{
-  display: none;
-}
-.show-xl{
-  display: block;
 }
