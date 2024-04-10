@@ -1,5 +1,12 @@
 :root{
 --bg-color-light:#CDDAB2;
+--bg-color-dark:#31533B;
+--bg-color-btn:#B3B476;
+--bg-color-choice:#CE4115;
+--color-dark:#1A3923;
+--color-light:#F5F9ED;
+--color-light-beige:#FBF1E3;
+
 
   font-family: "Poppins", sans-serif;
   font-size: 16px;
