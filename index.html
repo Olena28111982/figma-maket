@@ -17,9 +17,10 @@
     <link rel="stylesheet" href="./assets/css/custom-grid.css" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/welcome.css">
-    <link rel="stylesheet" href="./assets/css/contact-menu.css">
-    <link rel="stylesheet" href="./assets/css/servicos.css">
+    <link rel="stylesheet" href="./assets/css/welcome.css" />
+    <link rel="stylesheet" href="./assets/css/contact-menu.css" />
+    <link rel="stylesheet" href="./assets/css/servicos.css" />
+    <link rel="stylesheet" href="./assets/css/indico.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -31,10 +32,10 @@
               <span class="burger"></span>
               <ul class="main-menu hidden show-md">
                 <li class="main-menu-item">
-                  <a href="#" class="main-menu-link">Serviços</a>
+                  <a href="#servicos" class="main-menu-link">Serviços</a>
                 </li>
                 <li class="main-menu-item">
-                  <a href="#" class="main-menu-link">Eu indico</a>
+                  <a href="#indico" class="main-menu-link">Eu indico</a>
                 </li>
                 <li class="main-menu-item">
                   <a href="#" class="main-menu-link">Sobre</a>
@@ -53,59 +54,205 @@
             <div class="row">
               <div class="hidden show-lg col-lg-1"></div>
               <article class="col-7 col-lg-6 welcome-content">
-                <h1 class="welcom-heading">Ana <br> Zeferino</h1>
+                <h1 class="welcom-heading">
+                  Ana <br />
+                  Zeferino
+                </h1>
                 <p class="welcom-text">
                   <strong>Gestora</strong> de marketing digital
                 </p>
                 <ul class="contact-menu">
-                  <li class="contact-menu-item"><a href="#" class="contact-menu-link email"></a></li>
-                  <li class="contact-menu-item"><a href="#" class="contact-menu-link instagram "></a></li>
-                  <li class="contact-menu-item"><a href="" class="contact-menu-link behance"></a></li>
-                  <li class="contact-menu-item"><a href="#" class="contact-menu-link linkedin"></a></li>
-                  <li class="contact-menu-item"><a href="#" class="contact-menu-link viber"></a></li>
+                  <li class="contact-menu-item">
+                    <a href="#" class="contact-menu-link email"></a>
+                  </li>
+                  <li class="contact-menu-item">
+                    <a href="#" class="contact-menu-link instagram"></a>
+                  </li>
+                  <li class="contact-menu-item">
+                    <a href="" class="contact-menu-link behance"></a>
+                  </li>
+                  <li class="contact-menu-item">
+                    <a href="#" class="contact-menu-link linkedin"></a>
+                  </li>
+                  <li class="contact-menu-item">
+                    <a href="#" class="contact-menu-link viber"></a>
+                  </li>
                 </ul>
               </article>
               <div class="col-5">
                 <picture>
-                  <source srcset="./images/photo-453x740.png" media="(min-width:768px)"/>
-                  <img src="./images/photo-183x302.png" alt="Ana Zeferino" class="photo" />
+                  <source
+                    srcset="./images/photo-453x740.png"
+                    media="(min-width:768px)"
+                  />
+                  <img
+                    src="./images/photo-183x302.png"
+                    alt="Ana Zeferino"
+                    class="photo"
+                  />
                 </picture>
               </div>
             </div>
           </div>
         </section>
+
         <section class="servicos">
-          <div class="container servicos-conteiner">
-                       <h2 class="servicos-heading col-12">Serviços</h2>
-            <article class="servicos-article col-12">
-             <h3 class="servicos-individual">Consultoria <br>
-                individual:</h3> 
-              <p class="servicos-info">A consultoria é um serviço individualizado que segue uma estrutura com foco em diagnosticar e encaminhar um plano de ação diante um problema/questão trazida pelo cliente. O propósito da consultoria é te orientar de forma personalizada no assunto em que você precisa de ajuda.</p> 
-               <button class="btn button-info">Assuntos que atendo <br>
-                nas consultorias</button>
-                <button class=" btn button-info">Como funciona <br> 
-                  a minha consultoria</button>
-                  <button class=" btn button-choice">Quero a consultoria</button>
-            </article>
-            <article class="servicos-article col-12"></article>
-            <article class="servicos-article col-12"></article>
+          <div class="container">
+            <div class="row">
+              <h2 class="servicos-heading col-12" id="servicos">Serviços</h2>
+              <div class="col-12 col-md-6 margin-bottom">
+                <article class="servicos-article">
+                  <h3 class="servicos-individual">
+                    Consultoria <br />
+                    individual:
+                  </h3>
+                  <p class="servicos-info">
+                    A consultoria é um serviço individualizado que segue uma
+                    estrutura com foco em diagnosticar e encaminhar um plano de
+                    ação diante um problema/questão trazida pelo cliente. O
+                    propósito da consultoria é te orientar de forma
+                    personalizada no assunto em que você precisa de ajuda.
+                  </p>
+                  <button class="btn button-info">
+                    Assuntos que atendo <br />
+                    nas consultorias
+                  </button>
+                  <button class="btn button-info">
+                    Como funciona <br />
+                    a minha consultoria</button
+                  ><button class="btn button-choice">
+                    Quero a consultoria
+                  </button>
+                </article>
+              </div>
+
+              <div class="col-12 col-md-6 margin-bottom">
+                <article class="servicos-article">
+                  <h3 class="servicos-individual">Landing Page</h3>
+                  <p class="servicos-info">
+                    Precisa de uma página de captura para sua isca digital, uma
+                    página de lista de espera para infoproduto ou uma página de
+                    venda para divulgar seu curso?<br />
+                    <strong
+                      >Então agora você encontrou quem pode fazer isso pra
+                      você.</strong
+                    >
+                  </p>
+                  <button class="btn button-info">
+                    Como funciona <br />
+                    <span class="hidden-text-btn">o processo</span>
+                  </button>
+                  <button class="btn button-choice btn-portfolio">
+                    Acesse meu portfólio
+                  </button>
+                  <button class="btn button-choice">Quero a mihna</button>
+                </article>
+              </div>
+
+              <div class="col-12 margin-bottom">
+                <article class="servicos-article">
+                  <h3 class="servicos-individual">
+                    Treinamento in company Gestão <br />de lançamento
+                  </h3>
+                  <span class="servicos-span"
+                    >(parceria com Ana Laura Lobo)
+                  </span>
+                  <p class="servicos-info">
+                    O treinamento in company ou mentoria, é ideal para você que
+                    já tem um gestor, ou é seu próprio gestor, e quer aprimorar
+                    seu conhecimento e alinhar os processos do seu lançamento.
+                  </p>
+                  <div class="adaptation">
+                    <button class="btn button-info btn-inline-blok">
+                      Como funciona <br />
+                      a minha <br />
+                      consultoria
+                    </button>
+
+                    <button class="btn button-choice btn-inline-blok">
+                      Quero contratar
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
 
-        <div class="container servicos-conteiner">
-  
-<article class="servicos-article col-12">
-<h3 class="servicos-individual">Landing  Page </h3> 
- <p class="servicos-info">Precisa de uma página de captura para sua isca digital, uma página de lista de espera para infoproduto ou uma página de venda para divulgar seu curso?
-  Então agora você encontrou quem pode fazer isso pra você.
-  </p> 
-  <button class="btn button-info">Como funciona </button>
-    <button class=" btn button-choice">Acesse meu portfólio</button>
-     <button class=" btn button-choice">Quero a consultoria</button>
-</article>
-
-</div>
-</div>
+        <section class="indico">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 margin-bottom">
+                <article class="servicos-article">
+                  <h3 class="indico-heading" id="indico">Eu indico</h3>
+                  <div class="indico-service col-md-6">
+                    <source
+                      srcset="./assets/icons/square120*120.png"
+                      media="(min-width:768px)"
+                    />
+                    <img
+                      src="./assets/icons/square100*100.png"
+                      alt="square"
+                      class="squere"
+                    />
+                    <div class="indico-service1">
+                      <p>
+                        <span>Pack de Trellos</span>pragestão da sua empresa
+                      </p>
+                      <button class="btn-acessar">Acessar</button>
+                    </div>
+                  </div>
+                  <div class="indico-service col-md-6">
+                    <source
+                      srcset="./assets/icons/square120*120.png"
+                      media="(min-width:768px)"
+                    />
+                    <img
+                      src="./assets/icons/square100*100.png"
+                      alt="square"
+                      class="squere"
+                    />
+                    <div class="indico-service1">
+                      <p>
+                        <span>Mentoria</span>Trabalhe com Gestão de Projetos
+                      </p>
+                      <button class="btn-acessar">Acessar</button>
+                    </div>
+                  </div>
+                  <div class="indico-service col-md-6">
+                    <source
+                      srcset="./assets/icons/square120*120.png"
+                      media="(min-width:768px)"
+                    />
+                    <img
+                      src="./assets/icons/square100*100.png"
+                      alt="square"
+                      class="squere"
+                    />
+                    <div class="indico-service1">
+                      <p><span>Elementor</span>pra produção de landing pages</p>
+                      <button class="btn-acessar">Acessar</button>
+                    </div>
+                  </div>
+                  <div class="indico-service col-md-6">
+                    <source
+                      srcset="./assets/icons/square120*120.png"
+                      media="(min-width:768px)"
+                    />
+                    <img
+                      src="./assets/icons/square100*100.png"
+                      alt="square"
+                      class="squere"
+                    />
+                    <div class="indico-service1">
+                      <p><span>Kiwify</span>para vender produtos digitais</p>
+                      <button class="btn-acessar">Acessar</button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
       <footer>2024</footer>
